@@ -25,6 +25,10 @@ module Main
     end
 
     route do |r|
+      r.root do
+        r.view "pages.home"
+      end
+
       r.multi_route
     end
 
