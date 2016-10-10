@@ -11,14 +11,15 @@ gem "shotgun"
 
 # Database persistence
 gem "pg"
-gem "rom",            github: "rom-rb/rom"
-gem "rom-mapper",     github: "rom-rb/rom-mapper"
-gem "rom-repository", github: "rom-rb/rom-repository"
-gem "rom-sql",        github: "rom-rb/rom-sql"
-gem "rom-support",    github: "rom-rb/rom-support"
+gem "rom"
+gem "rom-mapper"
+gem "rom-repository"
+gem "rom-sql"
+gem "rom-support"
 
 # Application dependencies
 gem "dry-result_matcher"
+gem "dry-struct"           # required Dry::Types::Struct was extracted here
 gem "dry-transaction"
 gem "dry-types"
 gem "dry-validation"
